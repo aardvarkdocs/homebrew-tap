@@ -4,6 +4,12 @@ class Aardvark < Formula
   version "0.1.0"
   license :cannot_represent
 
+  bottle do
+    root_url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "0ec6943f4a82e37a654d671f380fd1f5d6cf0fbdd4dbd2e5c0cdf5be553db44d"
+    sha256 cellar: :any_skip_relocation, ventura:       "db3b3f410a756d37c84ba5e74f3de1164c2128ce80e62ffc8403a4ea6770e8e8"
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.1.0/aardvark-0.1.0-arm64.tar.gz"
