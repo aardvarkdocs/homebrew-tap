@@ -6,18 +6,18 @@ class Aardvark < Formula
 
   bottle do
     root_url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.2.0"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "ebd90817561dddd99a0efd6efd74cfcb20ba14582d895c5ecb3d4e1a86d5e8cb"
-    sha256 cellar: :any_skip_relocation, ventura:       "066b1e4edb0fa8b34e266dd52c194a0eec3a0e6a3334a305db74357b66e09981"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "c747661bd6f6f0ec2c8d7c4d5db36b079264399dfab59825b6e12c271cfea83f"
+    sha256 cellar: :any_skip_relocation, ventura:       "90efc671fd3a72fb2d1198c7f816e3a5370ca8b11a2dc9a491ba58b6aa888822"
   end
 
   on_macos do
     on_arm do
       url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.2.0/aardvark-0.2.0-arm64.tar.gz"
-      sha256 "9923fe77b748f5035f988276e6759abbb1fc6e627eb21d77dee51decb9a7dfb0"
+      sha256 "96a0bfde5d06bea14d7cbfe37aade3d951b7c5d17e6ccf1cf7a66c5268fb09bf"
     end
     on_intel do
       url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.2.0/aardvark-0.2.0-x86_64.tar.gz"
-      sha256 "e0c61540d32325fe35b06c30976ef27b7437f846341f2fda0634574feb535a98"
+      sha256 "aaf139cd8fc159af3d8ed43fa79255c12b9c915412b273877c7bb63c610c1c7f"
     end
   end
 
