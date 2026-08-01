@@ -1,23 +1,23 @@
 class Aardvark < Formula
   desc "Mantine-powered static site generator: author in Markdown, build to HTML"
   homepage "https://aardvarkdocs.com"
-  version "0.3.0"
+  version "0.3.1"
   license :cannot_represent
 
   bottle do
-    root_url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "7ead3be5d86eb26982207e72a5a862081afc58392e694fa1aab327d7459165e4"
-    sha256 cellar: :any_skip_relocation, ventura:       "1514f4a9eb629ef05928e5d5dd9cba7b103c29beb942e8e83bf49385cd3add6d"
+    root_url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "6a2eb2a648e9ce703f866ca3de74b99ee94d645550febca79e24db1e001b4092"
+    sha256 cellar: :any_skip_relocation, ventura:       "3c65046161ff14573a3cafeb676083aac0e2a9c850df118eac615adb2e2f6649"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.0/aardvark-0.3.0-arm64.tar.gz"
-      sha256 "a9108047ab5d085c53ade694a5454bc6537525a00967f5cbfe630485022c9496"
+      url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.1/aardvark-0.3.1-arm64.tar.gz"
+      sha256 "1f7e3f862c6a4da30bcdc9be13356c28d716430e8ac29062eca43f4f6c56463b"
     end
     on_intel do
-      url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.0/aardvark-0.3.0-x86_64.tar.gz"
-      sha256 "bd5790825c8df780f38fde891a620354e7a260a59445f2a13ce03968af9c3965"
+      url "https://github.com/aardvarkdocs/homebrew-tap/releases/download/v0.3.1/aardvark-0.3.1-x86_64.tar.gz"
+      sha256 "ce0f63590607f3d09b7a34d136a2f0c50340288ba92e1f6a9af73351430e213b"
     end
   end
 
